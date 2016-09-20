@@ -1,0 +1,19 @@
+<div>
+    <h1><a href="/">Atividade labWeb</a></h1>
+</div>
+
+{% for bicicleta in bicicleta %}
+    <div>
+        <h1><a href="">Fabricante: {{ bicicleta.fabricante }}</a></h1>
+        <p>Modelo: {{ bicicleta.modelo }}</p>
+        <p>Cor: {{ bicicleta.cor }}</p>
+        <p>Marcha: {{ bicicleta.marcha }}</p>
+        <p>Marca do Cambio: {{ bicicleta.marca }}</p>
+        <p>Proprietario: {{ bicicleta.proprietario }}</p>
+        <p>Celular: {{ bicicleta.celular }}</p>
+	<p>E-mail: {{ bicicleta.email }}</p>
+	<p>- - - - - - - - - - - - - - - </p>
+        
+        
+    </div>
+{% endfor %}
